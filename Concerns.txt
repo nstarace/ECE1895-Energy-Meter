@@ -1,0 +1,2 @@
+Concerns
+- voltage measurement pins are rated for 125 V
