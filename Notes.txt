@@ -1,0 +1,54 @@
+Notes
+12 V supply
+47 mA resolution
+overcurrent measurement range when resolution decreases = 12200
+30 mV resolution
+1000 V range
+
+
+To avoid missing data to logging, MCP1525 operates on 8 Mhz, IVTS operates 500 mb/s
+Therefore, maybe use a single SPI bus to ensure all messages aren't missed
+
+SD Card
+SPI is slowest but more flexible (compared to SD or MMC or SDIO)
+
+
+
+use existing mcp GitHub to mask for just specific elements
+
+
+will need to configure can message to log appropriate data
+
+DB0:command id (high byte) = 04
+DB1:command id (low byte) = 11
+DB2:high byte serial number = 00
+DB3:mid high byte serial num = D6
+DB4:mid low byte serial num = 53
+DB5:low byte serial num = FC
+DB6: 00
+
+nibble is 4 bits
+EVERYTHING BIG ENDIAN
+MOST SIGINFICANT BYTE AT LOWEST MEMORY
+
+Result Message: https://www.youtube.com/watch?v=H3Bni9TZeaA&list=PL9sxdxSnViGSR7I-P0wUqJrU8DkkkSe9W&index=4
+
+CAN ID: https://www.youtube.com/watch?v=3lov_C2Er4E&list=PL9sxdxSnViGSR7I-P0wUqJrU8DkkkSe9W&index=4
+
+Baud Rate: https://www.youtube.com/watch?v=Zf_GhOTARhE
+
+Overcurrent Thresholds: https://www.youtube.com/watch?v=W1G0l94ABLs
+
+stop mode and run mode
+SET_MODE p25
+
+set config result p23
+editing cyclic time of logging for respective channel
+
+command store to save settings p25
+command STORE
+
+command start message
+SET_MODE p25
+
+resolution 30 mV
