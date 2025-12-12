@@ -1,0 +1,250 @@
+Conversion Warnings Log
+
+
+MSG_ID: 1320 	MSG_TYPE: S 	MSG_NAME: IVT_Msg_Result_Wh
+	SIG_NAME: IVT_Result_Wh_System_Error, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: IVT_Result_Wh_OCS, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: IVT_Result_Wh_Measurement_Error, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: IVT_Result_Wh_Channel_Error, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: IVT_MsgCount_Result_Wh, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: IVT_ID_Result_Wh, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 1319 	MSG_TYPE: S 	MSG_NAME: IVT_Msg_Result_As
+	SIG_NAME: IVT_Result_As_System_Error, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: IVT_Result_As_OCS, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: IVT_Result_As_Measurement_Error, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: IVT_Result_As_Channel_Error, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: IVT_MsgCount_Result_As, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: IVT_ID_Result_As, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 1318 	MSG_TYPE: S 	MSG_NAME: IVT_Msg_Result_W
+	SIG_NAME: IVT_Result_W_System_Error, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: IVT_Result_W_OCS, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: IVT_Result_W_Measurement_Error, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: IVT_Result_W_Channel_Error, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: IVT_MsgCount_Result_W, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: IVT_ID_Result_W, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 1297 	MSG_TYPE: S 	MSG_NAME: IVT_Msg_Response
+	SIG_NAME: _B1_Trigger_spare, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _B1_07_Trigger_WH, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _B1_06_Trigger_As, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _B1_05_Trigger_W, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _B1_04_Trigger_T, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _B1_03_Trigger_U3, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _B1_02_Trigger_U2, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _B1_01_Trigger_U1, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _B1_00_Trigger_I, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _B2_Resp_Store_Device_SN, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _FF_Wrong_Command, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _BF_Restart_Alive_SN, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _BF_Restart_Alive_Cmd_ID, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _BA_Resp_SW_Ver_Vear, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _BA_Resp_SW_Ver_Revision, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _BA_Resp_SW_Ver_Month, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _BA_Resp_SW_Ver_Minor, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _BA_Resp_SW_Ver_Internal, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _BA_Resp_SW_Ver_Day, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _B9_Resp_Device_Com, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _B9_Resp_Device_current, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _B9_Resp_Device_TOI, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _B9_Resp_Device_V_supply, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _B9_Resp_Device_Voltage_chan, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _80_Resp_MeasError_Item, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _80_Resp_MeasError_Count_Mask, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _81_Resp_SystemError_Item, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _81_Resp_SystemError_Count_Mask, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _82_Resp_AllLogData_Item, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _82_Resp_AllLogData_Counter, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _83_Resp_LogData_Item, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _83_Resp_LogData_Counter, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _90_Resp_Can_ID_SN_I, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _90_Resp_Can_ID_val_I, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _91_Resp_Can_ID_SN_U1, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _91_Resp_Can_ID_val_U1, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _92_Resp_Can_ID_SN_U2, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _92_Resp_Can_ID_val_U2, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _93_Resp_Can_ID_SN_U3, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _93_Resp_Can_ID_val_U3, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _94_Resp_Can_ID_SN_T, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _94_Resp_Can_ID_val_T, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _95_Resp_Can_ID_SN_W, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _95_Resp_Can_ID_val_W, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _96_Resp_Can_ID_SN_As, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _96_Resp_Can_ID_val_As, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _97_Resp_Can_ID_SN_Wh, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _97_Resp_Can_ID_val_Wh, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _9D_Resp_Can_ID_SN_Command, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _9D_Resp_Can_ID_val_Command, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _9F_Resp_Can_ID_SN_Response, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _9F_Resp_Can_ID_val_Response, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _A0_Resp_CycleTime_I, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _A0_Resp_Endianess_I, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _A0_Resp_Sign_I, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _A1_Resp_CycleTime_U1, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _A1_Resp_Endianess_U1, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _A1_Resp_Sign_U1, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _A2_Resp_CycleTime_U2, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _A2_Resp_Endianess_U2, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _A2_Resp_Sign_U2, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _A3_Resp_CycleTime_U3, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _A3_Resp_Endianess_U3, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _A3_Resp_Sign_U3, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _A4_Resp_CycleTime_T, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _A4_Resp_Endianess_T, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _A4_Resp_Sign_T, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _A5_Resp_CycleTime_W, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _A5_Resp_Endianess_W, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _A5_Resp_Sign_W, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _A6_Resp_CycleTime_As, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _A6_Resp_Endianess_As, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _A6_Resp_Sign_As, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _A7_Resp_CycleTime_WH, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _A7_Resp_Endianess_WH, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _A7_Resp_Sign_WH, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _B0_Resp_Reset_Item, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _B0_Resp_Reset_Device_SN, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _B2_Resp_Store_dummy, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _B4_Resp_Actual_Mode, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _B4_Resp_Code_Level, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _B4_Resp_Startup_Mode, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _B5_Resp_OC_Pos_Reset_Threshold, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _B5_Resp_OC_Pos_Set_Threshold, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _B6_Resp_OC_Neg_Reset_Threshold, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _B6_Resp_OC_Neg_Set_Threshold, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _B9_Resp_Device_type, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _BA_Resp_SW_Ver_Major_HW, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _BB_Resp_Serien_Nr, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _BC_Resp_Art_N, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: IVT_ID_Response, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 1317 	MSG_TYPE: S 	MSG_NAME: IVT_Msg_Result_T
+	SIG_NAME: IVT_Result_T_System_Error, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: IVT_Result_T_OCS, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: IVT_Result_T_Measurement_Error, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: IVT_Result_T_Channel_Error, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: IVT_ID_Result_T, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: IVT_MsgCount_Result_T, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 1316 	MSG_TYPE: S 	MSG_NAME: IVT_Msg_Result_U3
+	SIG_NAME: IVT_Result_U3_System_Error, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: IVT_Result_U3_OCS, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: IVT_Result_U3_Measurement_Error, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: IVT_Result_U3_Channel_Error, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: IVT_ID_Result_U3, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: IVT_MsgCount_Result_U3, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 1315 	MSG_TYPE: S 	MSG_NAME: IVT_Msg_Result_U2
+	SIG_NAME: IVT_Result_U2_System_Error, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: IVT_Result_U2_OCS, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: IVT_Result_U2_Measurement_Error, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: IVT_Result_U2_Channel_Error, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: IVT_ID_Result_U2, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: IVT_MsgCount_Result_U2, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 1314 	MSG_TYPE: S 	MSG_NAME: IVT_Msg_Result_U1
+	SIG_NAME: IVT_Result_U1_System_Error, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: IVT_Result_U1_Measurement_Error, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: IVT_Result_U1_Channel_Error, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: IVT_Result_U1_OCS, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: IVT_ID_Result_U1, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: IVT_MsgCount_Result_U1, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 1313 	MSG_TYPE: S 	MSG_NAME: IVT_Msg_Result_I
+	SIG_NAME: IVT_Result_I_System_Error, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: IVT_Result_I_OCS, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: IVT_Result_I_Measurement_Error, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: IVT_Result_I_Channel_Error, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: IVT_ID_Result_I, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: IVT_MsgCount_Result_I, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+
+MSG_ID: 1041 	MSG_TYPE: S 	MSG_NAME: IVT_Msg_Cmd
+	SIG_NAME: _31_01_Trigger_U1, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _31_07_Trigger_WH, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _31_06_Trigger_As, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _31_05_Trigger_W, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _31_04_Trigger_T, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _31_03_Trigger_U3, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _31_Trigger_spare, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _31_02_Trigger_U2, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _10_Set_Can_ID_SN_I, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _11_Set_Can_ID_SN_U1, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _12_Set_Can_ID_SN_U2, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _13_Set_Can_ID_SN_U3, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _14_Set_Can_ID_SN_T, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _15_Set_Can_ID_SN_W, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _16_Set_Can_ID_SN_As, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _17_Set_Can_ID_SN_Wh, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _1D_Set_Can_ID_SN_Command, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _1F_Set_Can_ID_SN_Response, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _20_Conf_CycleTime_I, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _20_Conf_Endianess_I, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _20_Conf_Sign_I, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _21_Conf_CycleTime_U1, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _21_Conf_Endianess_U1, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _21_Conf_Sign_U1, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _22_Conf_CycleTime_U2, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _22_Conf_Endianess_U2, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _22_Conf_Sign_U2, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _23_Conf_CycleTime_U3, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _23_Conf_Endianess_U3, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _23_Conf_Sign_U3, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _24_Conf_CycleTime_T, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _24_Conf_Endianess_T, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _24_Conf_Sign_T, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _25_Conf_CycleTime_W, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _25_Conf_Endianess_W, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _25_Conf_Sign_W, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _26_Conf_CycleTime_As, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _26_Conf_Endianess_As, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _26_Conf_Sign_As, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _27_Conf_CycleTime_WH, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _27_Conf_Endianess_WH, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _27_Conf_Sign_WH, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _30_Reset_Item, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _30_Reset_Device_SN, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _31_00_Trigger_I, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _32_Store_dummy, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _34_Actual_Mode, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _34_Code_Level, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _34_Startup_Mode, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _35_OC_Pos_Reset_Threshold, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _35_OC_Pos_Set_Threshold, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _36_OC_Neg_Reset_Threshold, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _36_OC_Neg_Set_Threshold, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _3A_RESTART_to_Bitrate, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _3D_Restart_Default_Dummy, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _3F_Restart_Dummy, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _40_Get_MeasError_Item, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _41_Get_SystemError_Item, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _42_Get_AllLogData_Item, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _43_Get_LogData_Item, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _50_Get_Can_ID_SN_I, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _51_Get_Can_ID_SN_U1, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _52_Get_Can_ID_SN_U2, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _53_Get_Can_ID_SN_U3, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _54_Get_Can_ID_SN_T, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _55_Get_Can_ID_SN_W, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _56_Get_Can_ID_SN_As, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _57_Get_Can_ID_SN_Wh, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _5D_Get_Can_ID_SN_Command, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _5F_Get_Can_ID_SN_Response, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _60_Get_Result_dummy_I, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _61_Get_Result_dummy_U1, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _62_Get_Result_dummy_U2, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _63_Get_Result_dummy_U3, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _64_Get_Result_dummy_T, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _65_Get_Result_dummy_W, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _66_Get_Result_dummy_As, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _67_Get_Result_dummy_Wh, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _73_Get_OC_Test_dummy, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _74_Get_Mode_dummy, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _75_Get_OC_Pos_dummy, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _76_Get_OC_Neg_dummy, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _79_Get_Device_Id_dummy, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _7A_Get_SW_Version_dummy, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _7B_Get_Serien_Nr_dummy, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: _7C_Get_Art_Nr_dummy, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+	SIG_NAME: IVT_ID_Cmd, STATUS: Invalid Max or Min value., ACTION: Value Set to default
+OBJECT ID : SG_	PARAM_NAME :"GenSigStartValue"
+	Description: Invalid Data Ranges	 Action Taken : Reset to default value
