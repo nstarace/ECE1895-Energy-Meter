@@ -1,6 +1,9 @@
 # Tractive System Energy Meter
 Project repository for data aquisition system to measure and log high voltage, current, and temperature to an SD card. 
 
+## Product Setup
+See Other -> Reports -> ECE1895 Energy Meter Final Report for details on how to use the hardware and software within the project
+
 ## File Descriptions
 All files relevant to the current state of the product are described below
   
@@ -24,4 +27,7 @@ Other
 * Reports: Proposals and reports related to ECE1895
 * Resources: Personal notes, initial planning documentation, and 1Wire documentation for reference
 * Results: Important outputs of the design shown through screenshots
+
+## Future Work
+Given the precise nature of the IVT-S sensor and its measurements, 
 
