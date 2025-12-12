@@ -29,5 +29,5 @@ Other
 * Results: Important outputs of the design shown through screenshots
 
 ## Future Work
-Given the precise nature of the IVT-S sensor and its measurements, 
+Given the precise nature of the IVT-S sensor and its measurements, a Kalman filter or other state estimation technique could be implemented to find the state of battery charge. 
 
