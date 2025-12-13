@@ -54,3 +54,8 @@ command start message
 SET_MODE p25
 
 resolution 30 mV
+
+
+Tomorrow:
+- Serial output proper values, formatted (voltage, current)
+- Log Current sensor values to SD Card

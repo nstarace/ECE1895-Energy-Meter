@@ -1,2 +1,7 @@
 Concerns
 - voltage measurement pins are rated for 125 V
+- why is DLC only 6 and not 8
+
+
+- only one terminating resistor
+- voltage comparison is not connected
