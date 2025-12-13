@@ -5,9 +5,6 @@ overcurrent measurement range when resolution decreases = 12200
 30 mV resolution
 1000 V range
 
-
-ADD WHAT THE OUTPUT OF THE RX MESSAGE IS FROM IVTS WHEN IN TIMEOUT FOR ALL FUNCTIONS
-
 To avoid missing data to logging, MCP1525 operates on 8 Mhz, IVTS operates 500 mb/s
 Therefore, maybe use a single SPI bus to ensure all messages aren't missed
 
@@ -59,3 +56,20 @@ resolution 30 mV
 Tomorrow:
 - Serial output proper values, formatted (voltage, current)
 - Log Current sensor values to SD Card
+
+
+
+
+- SPI busses are fragile - use two since possible
+- logging to SD card introduces high latency - optimize
+- architecture setup to clear can buffer before logging to miss minimum messages
+- realized why atmega no good - 8 bit resolution is awful
+
+
+opening and closing sd card file still very slow
+test cases for can ids not in switch case
+bit wise or not probably great
+how is NAN printed?
+
+
+add backup battery to ensure no data loss with file open

@@ -290,7 +290,7 @@ void loop() {
   // Change Result Configuration
   Serial.println("------ Configure Result Output ------");
   valid = commandSTOP();
-  if (valid) { valid = setConfigResult(0x01, 0x02, 0x003C); } // 02 (high nibble, low nibble) message, trigger mode (always 0x0n), cycle time in ms see datasheet p21 for assignments, 0x003C is 60ms
+  if (valid) { valid = setConfigResult(0x00, 0x02, 0x003C); } // 02 (high nibble, low nibble) message, trigger mode (always 0x0n), cycle time in ms see datasheet p21 for assignments, 0x003C is 60ms
   if (valid) { valid = commandSTORE(); }
   if (valid) { valid = commandSTART(); }
   
@@ -299,10 +299,11 @@ void loop() {
   // Change CANID
   Serial.println("------ Configure CANID ------");
   valid = commandSTOP();
-  if (valid) { valid = setCANID(0x11, 0x0777); } // see datasheet p23 for assignments
+  if (valid) { valid = setCANID(0x10, 0x501); } // see datasheet p23 for assignments
   if (valid) { valid = commandSTORE(); }
   if (valid) { valid = commandSTART(); }
   */
+  
 
   if (valid) { Serial.println("Finish Successful"); }
   else { Serial.println("Finish Unsuccessful"); }
