@@ -1,5 +1,22 @@
-# Tractive System Energy Meter
-Project repository for data aquisition system to measure and log high voltage, current, and temperature to an SD card. 
+# Overview
+Contained in this repository are all files relevant to a modular data aquisition and logging system for automotive applications. The system measures and records voltage and current for high voltage EV tractive systems. This design can considered as an energy meter since all recorded data can be used to calculate power consumption of the overall battery.
+
+The initial scope of this project details a minimal hardware architecture that utilized the Twisted Wire Automotive Interface (TWAI) available on the ESP32, eliminating the need for an external CAN bus transciever. Due to a lack of oepn source documentation, a popular external controller was used in place. Additionally, the initial scope of the project included the measurement and logging of temperature sensors. This feature was not included in the final design due to the limited time spent on the project. All components used in the final design are detailed below. 
+
+| Device Type | Component | Protocol |
+| ----------- | --------- | -------- |
+| Sensor | Isabellenhute IVT-S | CAN |
+| Transciever | TJA1050 | CAN |
+| Controller | MCP2515 | CAN/SPI |
+| Microcontroller | ESP32-S3 | All |
+| Storage | SD Breakout | SPI |
+
+### Previous Work
+
+# Verification
+# Implementation
+# Testing
+# Summary, Conclusion, Future Work
 
 ## Product Setup
 See Other -> Reports -> ECE1895 Energy Meter Final Report for details on how to use the hardware and software within the project
