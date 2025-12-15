@@ -132,8 +132,6 @@ bool setCANID(unsigned int MsgType, unsigned int CANID) {
   mcp2515.sendMessage(&txMsg);
 
   // Verify Result
-  unsigned int channelcheck1 = 0x99;
-  unsigned int channelcheck2 = 0x99;
   unsigned long t0 = millis();
   while (millis() - t0 < 5000) {
     if (mcp2515.readMessage(&rxMsg) == MCP2515::ERROR_OK) {
@@ -147,8 +145,6 @@ bool setCANID(unsigned int MsgType, unsigned int CANID) {
               return true;
             }
           }
-          channelcheck1 = rxMsg.data[1];
-          channelcheck2 = rxMsg.data[2];
         }
       }
     }
@@ -286,23 +282,24 @@ void loop() {
   if (valid) { valid = setBAUD(0x08); } // 0x08, 0x04, 0x02 (250k, 500k, 1000k, respectively)
   */
 
-  
+  /*
   // Change Result Configuration
   Serial.println("------ Configure Result Output ------");
   valid = commandSTOP();
   if (valid) { valid = setConfigResult(0x00, 0x02, 0x003C); } // 02 (high nibble, low nibble) message, trigger mode (always 0x0n), cycle time in ms see datasheet p21 for assignments, 0x003C is 60ms
   if (valid) { valid = commandSTORE(); }
   if (valid) { valid = commandSTART(); }
+  */
   
 
-  /*
+
   // Change CANID
   Serial.println("------ Configure CANID ------");
   valid = commandSTOP();
-  if (valid) { valid = setCANID(0x10, 0x501); } // see datasheet p23 for assignments
+  if (valid) { valid = setCANID(0x10, 0x501); }       // see datasheet p23 for assignments
   if (valid) { valid = commandSTORE(); }
   if (valid) { valid = commandSTART(); }
-  */
+  
   
 
   if (valid) { Serial.println("Finish Successful"); }
