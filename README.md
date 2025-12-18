@@ -6,8 +6,8 @@ The initial scope of this project details a minimal hardware architecture that u
 | Device Type | Component | Protocol |
 | ----------- | --------- | -------- |
 | Sensor | Isabellenhutte IVT-S | CAN |
-| Transceiver | TJA1050 | CAN |
-| Controller | MCP2515 | CAN/SPI |
+| Transceiver | TJA1050 | CAN/UART |
+| Controller | MCP2515 | UART/SPI |
 | Microcontroller | ESP32-S3 | All |
 | Storage | SD Breakout | SPI |
 
